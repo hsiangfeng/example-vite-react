@@ -1,6 +1,6 @@
 import { Outlet, Link } from 'react-router-dom';
 
-const App = () => {
+const Admin = () => {
   return (
     <>
       <nav className="px-5 flex items-center h-[60px] bg-indigo-500 text-white">
@@ -20,10 +20,10 @@ const App = () => {
           </li>
         </ul>
       </nav>
-      <h1>App</h1>
+      <h1>Admin</h1>
       <Outlet />
     </>
   )
 }
 
-export default App;
+export default Admin;
