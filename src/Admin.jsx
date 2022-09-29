@@ -7,12 +7,6 @@ const Admin = () => {
         <h1 className="mr-auto text-2xl">React TodoList</h1>
         <ul className="flex">
           <li className="mr-3">
-            <Link to="/" className="border p-3 hover:bg-indigo-600 duration-500">Home</Link>
-          </li>
-          <li className="mr-3">
-            <Link to="/todolist" className="border p-3 hover:bg-indigo-600 duration-500">ToDoList</Link>
-          </li>
-          <li className="mr-3">
             <Link to="/admin" className="border p-3 hover:bg-indigo-600 duration-500">Admin</Link>
           </li>
           <li className="mr-3">

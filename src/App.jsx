@@ -15,9 +15,6 @@ const App = () => {
           <li className="mr-3">
             <Link to="/admin" className="border p-3 hover:bg-indigo-600 duration-500">Admin</Link>
           </li>
-          <li className="mr-3">
-            <Link to="/admin/products" className="border p-3 hover:bg-indigo-600 duration-500">AdminProducts</Link>
-          </li>
         </ul>
       </nav>
       <h1>App</h1>
